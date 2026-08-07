@@ -1,0 +1,47 @@
+# Sensitive config (contains API keys and tokens)
+FreqtradeBot/config.json
+
+# Database files
+FreqtradeBot/tradesv3.*.sqlite*
+
+# Python cache
+FreqtradeBot/user_data/strategies/__pycache__/
+__pycache__/
+*.pyc
+
+# Environment
+.env
+
+# Google service account credentials
+*.gserviceaccount.json
+glossy-infinity-*.json
+
+# Downloaded candle data (large)
+FreqtradeBot/user_data/data/
+
+# Hyperopt lock & results
+FreqtradeBot/user_data/hyperopt.lock
+FreqtradeBot/user_data/hyperopt_results/*.fthypt
+FreqtradeBot/user_data/hyperopt_results/*.pkl
+
+# Backtest results (large binary archives)
+FreqtradeBot/user_data/backtest_results/*.zip
+FreqtradeBot/user_data/backtest_results/*.meta.json
+
+# Cache & DB files
+FreqtradeBot/user_data/fng_cache.json
+FreqtradeBot/user_data/price_alerts.db
+
+# Misc
+*.jpg
+*.docx
+
+# Generated card images
+FreqtradeBot/scripts/signal_*.png
+FreqtradeBot/user_data/strategy_card_*.png
+
+# Landing page
+landing/node_modules/
+landing/.next/
+landing/out/
+FreqtradeBot/config_supertrend.json
